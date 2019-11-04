@@ -1,4 +1,4 @@
-/**
+ /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
  *
@@ -10,15 +10,17 @@ import PropTypes from "prop-types"
 import "./layout.scss"
 import "./bootstrap.min.css"
 import Navbar from "./globals/Navbar"
+import Footer from "./globals/Footer"
 
 const Layout = ({ children }) => {
 
   return (
     <>
-     <main>
-      <Navbar />
-      {children}
-     </main>
+    <Navbar />
+       <main>
+        {children}
+       </main>
+    <Footer />
     </>
   )
 }
