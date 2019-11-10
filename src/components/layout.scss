@@ -1,3 +1,4 @@
+// Colors
 $main-brown: #2d1e1f;
 $main-yellow: #ff9e09;
 $main-grey: #ece8dc;
@@ -20,9 +21,6 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
-.text-yellow {
-  color: $main-yellow;
-}
 
 .cart-icon {
   cursor: pointer;
@@ -46,6 +44,10 @@ h6 {
   min-height: 60vh;
 }
 
+.text-yellow {
+  color: $main-yellow;
+}
+
 .btn-yellow {
   color: $main-yellow !important;
   border-color: $main-yellow !important;
@@ -56,6 +58,37 @@ h6 {
   color: $main-brown !important;
 }
 
+.menu, .contact {
+  background: $main-grey;
+
+}
+
 .footer {
   background-color: $main-brown;
+}
+
+.snipcart-cart-button--highlight {
+  background: none;
+  background-color: $main-yellow;
+}
+
+.snipcart__box-badge-highlight {
+  background: none;
+  background-color: $main-yellow;
+}
+
+.snipcart__actions--link {
+  color: $main-yellow;
+}
+
+.snipcart__icon--blue-light path {
+  fill: $main-yellow;
+}
+
+.snipcart-modal, .snipcart-cart-header {
+  background-color: $main-brown;
+}
+
+.snipcart__loading__screen_icon path.active {
+  fill: $main-yellow
 }

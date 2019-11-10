@@ -35,6 +35,15 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       },
     },
+    {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: process.env.SNIPCART_API_KEY,
+        autopop: true,
+        js: `https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.js`,
+        styles: `https://cdn.snipcart.com/themes/v3.0.2/default/snipcart.css`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
