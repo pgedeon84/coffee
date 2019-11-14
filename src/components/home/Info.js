@@ -26,15 +26,3 @@ export default function Info() {
     </section>
   )
 }
-
-import React from 'react'
-
-export default class Info extends Component {
-  render() {
-    return (
-      <div>
-
-      </div>
-    )
-  }
-}
